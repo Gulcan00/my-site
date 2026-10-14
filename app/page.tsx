@@ -6,6 +6,7 @@ import { Journey } from "@/components/Journey";
 import { Work } from "@/components/Work";
 import { Contact, Footer } from "@/components/Contact";
 import { Effects } from "@/components/Effects";
+import { ChatWidget } from "@/components/ChatWidget";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ChatWidget />
       <Effects />
     </>
   );

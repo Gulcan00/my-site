@@ -1,4 +1,5 @@
 import { Terminal } from "./Terminal";
+import { AskTwinButton } from "./AskTwinButton";
 import { profile } from "@/lib/profile";
 
 export function Hero() {
@@ -31,6 +32,7 @@ export function Hero() {
             <a href="#journey" className="btn btn--accent">
               Explore my journey <span className="arrow" aria-hidden>→</span>
             </a>
+            <AskTwinButton />
             <a href="#contact" className="btn">
               Get in touch
             </a>
